@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:text="SignUp as ...."
+        android:textSize="30dp"
+        android:gravity="center" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="15dp">
+
+        <RadioButton
+            android:id="@+id/IsDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp">>
+        <RadioButton
+            android:id="@+id/IsPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp">>
+
+        <RadioButton
+            android:id="@+id/IsAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Administrator"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/goto_SignUp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:background="#000" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

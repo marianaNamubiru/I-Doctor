@@ -1,0 +1,5 @@
+<root>
+    <item name='android.widget.TextView java.lang.CharSequence getText()'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
