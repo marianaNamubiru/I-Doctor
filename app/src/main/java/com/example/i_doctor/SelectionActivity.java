@@ -16,6 +16,7 @@ import java.util.TimerTask;
 
 public class SelectionActivity extends AppCompatActivity {
     RadioButton IsDoctor,IsPatient,IsAdmin;
+
     private Button goto_SignUp;
     Timer timer;
 
@@ -43,6 +44,7 @@ public class SelectionActivity extends AppCompatActivity {
 
         /*        timer = new Timer();
         timer.schedule(new TimerTask(){
+
 
             @Override
             public void run() {

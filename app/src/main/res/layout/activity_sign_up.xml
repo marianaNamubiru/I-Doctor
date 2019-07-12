@@ -40,6 +40,51 @@
 
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:text="Gender"
+                android:layout_marginLeft="20dp" />
+
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Gendergroup"
+                android:layout_weight="2">
+
+                <RadioButton
+                    android:id="@+id/Maleradio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:onClick="rbClick"
+                    android:text="Male"
+                    android:checked="false"/>
+
+                <RadioButton
+                    android:id="@+id/Femaleradio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:onClick="rbClick"
+                    android:text="Female"
+                    android:checked="false"/>
+            </RadioGroup>
+
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -89,43 +134,7 @@
                 android:id="@+id/LastName"
                 android:background="#ffffff"/>
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="left"
-                android:textStyle="bold"
-                android:text="Gender"
-                android:layout_marginLeft="20dp" />
-
-            <CheckBox
-                android:id="@+id/Female"
-                android:layout_width="4dp"
-                android:layout_height="wrap_content"
-                android:text="Female"
-                android:background="#ffffff"
-                android:layout_weight="1"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="30dp"/>
-
-            <CheckBox
-                android:id="@+id/Male"
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:text="Male"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="40dp"/>
-        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
