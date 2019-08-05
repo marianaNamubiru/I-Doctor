@@ -1,10 +1,10 @@
-package com.example.i_doctor;
+package com.example.i_doctor.myactivity;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ActionBar;
-import android.content.Intent;
-import android.os.Bundle;
+import com.example.i_doctor.R;
 
 public class MainActivity extends AppCompatActivity {
 

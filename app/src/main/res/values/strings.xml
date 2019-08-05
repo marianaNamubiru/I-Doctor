@@ -1,2 +1,37 @@
-<component name="libraryTable">
-    <library name="Gradle: com.google.code.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Login and signup</string>
+    <string name="hint_username">username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not account? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login .</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <string name="about_app">About app</string>
+    <string name="list_of_doctors">View list of doctors</string>
+    <string name="ask_a_doctor">Ask your doctor</string>
+    <string name="feedback">feedback</string>
+    <string name="title_activity_navigate">NavigateActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_navigating">NavigatingActivity</string>
+
+
+</resources>

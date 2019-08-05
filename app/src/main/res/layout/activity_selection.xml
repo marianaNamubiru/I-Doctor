@@ -34,7 +34,7 @@
         android:paddingRight="20dp">
 
     <RadioGroup
-        android:id="@+id/SignAsradio"
+        android:id="@+id/SignAsRadio"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal">
@@ -45,6 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Doctor"
+            android:onClick="rbClick"
             android:checked="false"/>
 
         <RadioButton
@@ -52,16 +53,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Patient"
+            android:onClick="rbClick"
             android:checked="false"
             android:layout_marginTop="20dp"/>
 
-        <RadioButton
-            android:id="@+id/IsAdmin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Administrator"
-            android:checked="false"
-            android:layout_marginTop="20dp"/>
     </RadioGroup>
     </LinearLayout>
 

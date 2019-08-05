@@ -7,27 +7,37 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- START Added for GCM -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+        android:name=".helpers.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="i-Doctor"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dashboard"></activity>
-        <activity android:name=".HomeActivity">
+        <activity android:name=".DocSignUpActivity">
+        </activity>
+        <activity
+            android:name=".NavigatingActivity"
+            android:label="iDoctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".myactivity.IssignedInActivity" />
+        <activity android:name=".myactivity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SelectionActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".myactivity.SignUpActivity" />
+        <activity android:name=".myactivity.LoginActivity" />
+        <activity android:name=".myactivity.SelectionActivity" />
+        <activity android:name=".myactivity.MainActivity" />
     </application>
 
 </manifest>

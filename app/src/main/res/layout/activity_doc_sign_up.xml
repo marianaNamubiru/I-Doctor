@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".DocSignUpActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="SignUp page"
+                android:text="Doctors SignUp page"
                 android:textSize="15dp"
                 android:textColor="#000"
                 android:paddingTop="35dp"
@@ -90,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp">
 
@@ -107,7 +106,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:id="@+id/FirstName"/>
+                android:id="@+id/FirstName" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -155,7 +154,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:inputType="date" />
+                android:inputType="date"/>
 
         </LinearLayout>
         <LinearLayout
@@ -180,7 +179,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:layout_weight="2" />
+                android:layout_weight="2"/>
 
         </LinearLayout>
         <LinearLayout
@@ -229,7 +228,7 @@
                 android:id="@+id/Address"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2" />
+                android:layout_weight="2"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -275,7 +274,56 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:layout_weight="2" />
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Specialize_In"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/Area_of_Specialization"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Doctor_LicenceNo."
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                />
+            <EditText
+                android:id="@+id/Licence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="2"/>
 
         </LinearLayout>
         <LinearLayout
@@ -303,77 +351,77 @@
         </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="30dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
-
-        <TextView
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left"
-            android:textStyle="bold"
-            android:text="Password"
-            android:layout_marginLeft="20dp" />
-        <EditText
-            android:id="@+id/Password"
-            android:layout_width="0dp"
-            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:text="Password"
+                android:layout_marginLeft="20dp" />
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="30dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:text="Comfirm_password"
+                android:layout_marginLeft="20dp" />
 
-        <TextView
-            android:layout_width="0dp"
+            <EditText
+                android:id="@+id/Password_again"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left"
-            android:textStyle="bold"
-            android:text="Comfirm_password"
-            android:layout_marginLeft="20dp" />
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
-        <EditText
-            android:id="@+id/Password_again"
-            android:layout_width="0dp"
-            android:layout_weight="2"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            <TextView
+                android:id="@+id/link_Login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:text="already registered?"
+                android:textColor="#000"
+                android:textSize="16dp" />
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="30dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
-
-        <TextView
-            android:id="@+id/link_Login"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="24dp"
-            android:gravity="center"
-            android:text="already registered?"
-            android:textColor="#000"
-            android:textSize="16dp" />
-
-    </LinearLayout>
+        </LinearLayout>
 
         <Button
             android:id="@+id/Submit"
@@ -382,7 +430,6 @@
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
             android:textColor="#ffffff"
-            android:onClick="Next"
             android:background="#000"
             android:text="Submit"
             android:textStyle="bold" />

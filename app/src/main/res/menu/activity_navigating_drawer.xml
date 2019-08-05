@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About iDoctor" />
+
+        <item
+            android:id="@+id/nav_Chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_Email"
+            android:icon="@drawable/ic_email"
+            android:title="Email" />
+        <item
+            android:id="@+id/nav_Notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_signout"
+            android:title="SignOut" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Privacy_policy"
+                android:icon="@drawable/ic_policy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_Help"
+                android:icon="@drawable/ic_help"
+                android:title="Help/Feedback" />
+        </menu>
+    </item>
+
+</menu>
